@@ -1,0 +1,8 @@
+
+mark: 2
+
+notes:
+-to print the outcome of the linear regression, you need to first save it in a
+ variable, like z = ss.linregress(x,y) and then print z, rather than trying to
+ print just ss.linregress
+-should also be doing linear regression over x and y, not the ranges
